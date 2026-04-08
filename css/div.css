@@ -1,0 +1,16 @@
+.container .info-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.brand {
+    height: auto;
+    max-width: 200px;
+}
+
+.brand img {
+    height: auto;
+    width: 100%;
+}
