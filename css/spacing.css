@@ -9,3 +9,7 @@
 .add-1rem-margin {
     margin: 1rem 0;
 }
+
+.add-1rem-bottom-margin {
+    margin-bottom: 1rem;
+}

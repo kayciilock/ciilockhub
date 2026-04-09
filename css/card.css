@@ -18,8 +18,32 @@
 .card.visual {
     align-items: center;
     justify-content: center;
-    min-height: 250px;
+    min-height: 200px;
 }
 .grid-3 .card {
     align-items: center;
+}
+
+@media (max-width: 1060px) {
+    .container.cards {
+        grid-template-columns: 1fr;
+    }
+
+    .container .cards-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .container .grid-3 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-visual {
+        max-height: 200px;
+        aspect-ratio:none;
+    }
+}
+
+@media (max-width: 700px) {
+    .container .grid-3 {
+        grid-template-columns: 1fr;
+    }
 }

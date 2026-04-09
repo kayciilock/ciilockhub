@@ -54,3 +54,12 @@ p {
     margin-right: 1rem;
     background-color:#0053ac;
 }
+
+#brand-container h3 {
+    text-align: center;
+}
+
+.container.intro h2 ,
+.container.intro p {
+    text-align: center;
+}
