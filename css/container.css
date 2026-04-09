@@ -71,6 +71,10 @@
     align-items: center;
 }
 
+.container.moretools {
+    margin-bottom: 4rem;
+}
+
 .background-cover {
     background-position: center;
     background-repeat: no-repeat;

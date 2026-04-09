@@ -5,3 +5,7 @@
 .add-2rem-top-margin {
     margin-top: 2rem;
 }
+
+.add-1rem-margin {
+    margin: 1rem 0;
+}
