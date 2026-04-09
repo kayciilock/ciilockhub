@@ -1,36 +1,36 @@
 [
     {
-        "image": "../images/brands/stegbar.webp",
+        "image": "images/brands/stegbar.webp",
         "heading": "STEGBAR",
         "buttonText": "Free Access",
         "link": ""
     },
     {
-        "image": "../images/brands/jl-windows.webp",
+        "image": "images/brands/jl-windows.webp",
         "heading": "JL Windows & Doors",
         "buttonText": "Free Access",
         "link": ""
     },
     {
-        "image": "../images/brands/AL.webp",
+        "image": "images/brands/al.webp",
         "heading": "A&L Windows & Doors",
         "buttonText": "Free Access",
         "link": ""
     },
     {
-        "image": "../images/brands/trend.webp",
+        "image": "images/brands/trend.webp",
         "heading": "Trend Windows & Doors",
         "buttonText": "Free Access",
         "link": ""
     },
     {
-        "image": "../images/brands/evu.webp",
+        "image": "images/brands/evu.webp",
         "heading": "Epic View Window",
         "buttonText": "Free Access",
         "link": ""
     },
     {
-        "image": "../images/brands/asa-windows.webp",
+        "image": "images/brands/asa-windows.webp",
         "heading": "Aluminium Solutions Australia",
         "buttonText": "Free Access",
         "link": ""
