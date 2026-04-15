@@ -12,27 +12,27 @@ p {
 }
 
 h1 {
-    font-weight: 500;
-    font-size: 2.5em;
-}
-
-h2 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2.25em;
 }
 
 h2 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 2em;
 }
 
+h2 {
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
 h3 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.25em;
 }
 
 p {
-    font-size: 1.15em;
+    font-size: 1em;
     line-height: 1.5;
 }
 
@@ -62,4 +62,12 @@ p {
 .container.intro h2 ,
 .container.intro p {
     text-align: center;
+}
+
+.highlight.blue h3 {
+    margin-top: 0.4rem;
+}
+
+small {
+    color: rgb(122, 122, 122);
 }

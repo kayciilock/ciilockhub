@@ -8,3 +8,7 @@
     flex-direction: row;
     align-items: center;
 }
+
+.flex-row.heading {
+    gap: 0.75rem;
+}
