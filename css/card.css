@@ -24,6 +24,20 @@
     align-items: center;
 }
 
+.card .icon {
+    width: 100px;
+}
+
+.card .icon.report {
+    width: 200px;
+}
+
+.card .icon img {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
 @media (max-width: 1060px) {
     .container.cards {
         grid-template-columns: 1fr;
