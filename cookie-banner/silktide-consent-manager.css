@@ -1,26 +1,15 @@
-/* 
-  Silktide Consent Manager - https://silktide.com/consent-manager/  
-
-  Styles are at risked of being overridden by styles coming from the site the consent manager is used on.
-  To help prevent this, global wrapper elements are prefixed with "#silktide-"
-*/
-
-/* --------------------------------
-  Global Styles - These elements exist in the main DOM and styling is limited to positioning and animation
--------------------------------- */
-/* Wrapper (Global) */
 #silktide-wrapper {
-              --focus: 0 0 0 2px #ffffff, 0 0 0 4px #000000, 0 0 0 6px #ffffff;
-              --boxShadow: -5px 5px 10px 0px #00000012, 0px 0px 50px 0px #0000001a;
-              --fontFamily: Helvetica Neue, Segoe UI, Arial, sans-serif;
-              --primaryColor: #09A2DD;
-              --backgroundColor: #070219;
-              --textColor: #e5f6fa;
-              --backdropBackgroundColor: #00000033;
-              --backdropBackgroundBlur: 0px;
-              --cookieIconColor: #09A2DD;
-              --cookieIconBackgroundColor: #070219;
-              position: fixed;
+  --focus: 0 0 0 2px #ffffff, 0 0 0 4px #000000, 0 0 0 6px #ffffff;
+  --boxShadow: -5px 5px 10px 0px #00000012, 0px 0px 50px 0px #0000001a;
+  --fontFamily: Helvetica Neue, Segoe UI, Arial, sans-serif;
+  --primaryColor: #09A2DD;
+  --backgroundColor: #070219;
+  --textColor: #e5f6fa;
+  --backdropBackgroundColor: #00000033;
+  --backdropBackgroundBlur: 0px;
+  --cookieIconColor: #09A2DD;
+  --cookieIconBackgroundColor: #070219;
+  position: fixed;
   bottom: 0;
   right: 0;
   width: 100%;
@@ -31,9 +20,8 @@
   display: flex;
   justify-content: center;
   align-items: center
-            }
+}
 
-/* Backdrop (Global) */
 #silktide-backdrop-global {
   position: fixed;
   top: 0;
@@ -45,9 +33,6 @@
   display: none;
 }
 
-/* --------------------------------
-  Links
--------------------------------- */
 #silktide-wrapper a {
   all: unset;
   display: inline-block;
@@ -60,9 +45,6 @@
   color: var(--textColor);
 }
 
-/* --------------------------------
-  Focus Styles
--------------------------------- */
 #silktide-wrapper a:focus,
 #silktide-wrapper #silktide-banner button:focus,
 #silktide-wrapper #silktide-modal button:focus,
@@ -75,10 +57,6 @@
 #silktide-wrapper #silktide-cookie-icon:focus {
   border-radius: 50%;
 }
-
-/* --------------------------------
-  General Styles
--------------------------------- */
 
 #silktide-wrapper .st-button {
   color: var(--backgroundColor);
@@ -112,9 +90,6 @@
   color: var(--backgroundColor);
 }
 
-/* --------------------------------
-  Banner
--------------------------------- */
 #silktide-banner {
   font-family: var(--fontFamily);
   color: var(--textColor);
@@ -214,7 +189,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--primaryColor); /* passed down to svg > path */
+  fill: var(--primaryColor);
   margin-left: auto;
   width: 48px;
   height: 48px;
@@ -244,9 +219,6 @@
   flex-grow: 1;
 }
 
-/* --------------------------------
-  Modal
--------------------------------- */
 #silktide-modal {
   display: none;
   pointer-events: auto;
@@ -268,9 +240,6 @@
   box-sizing: border-box;
 }
 
-/* --------------------------------
-  Modal - Header
--------------------------------- */
 #silktide-modal header {
   display: flex;
   justify-content: space-between;
@@ -301,23 +270,19 @@
   fill: var(--primaryColor);
 }
 
-/* --------------------------------
-  Modal - Content
--------------------------------- */
-
 #silktide-modal section {
   flex: 1;
   margin-top: 32px;
 }
 
 #silktide-modal section::-webkit-scrollbar {
-  display: block; /* Force scrollbars to show */
-  width: 5px; /* Width of the scrollbar */
+  display: block;
+  width: 5px; 
 }
 
 #silktide-modal section::-webkit-scrollbar-thumb {
-  background-color: var(--textColor); /* Color of the scrollbar thumb */
-  border-radius: 10px; /* Rounded corners for the thumb */
+  background-color: var(--textColor);
+  border-radius: 10px; 
 }
 
 #silktide-modal p {
@@ -356,9 +321,6 @@
   gap: 24px;  
 }
 
-/* --------------------------------
-  Modal - Switches
--------------------------------- */
 #silktide-modal .switch {
   flex-shrink: 0;
   position: relative;
@@ -379,7 +341,6 @@
   position: absolute;
 }
 
-/* Unchecked Switch Styles */
 #silktide-modal .switch__pill {
   position: relative;
   display: block;
@@ -421,7 +382,6 @@
   opacity: 0;
 }
 
-/* Checked Switch Styles */
 #silktide-modal .switch input:checked + .switch__pill {
   background: var(--primaryColor);
 }
@@ -440,15 +400,11 @@
   opacity: 1;
 }
 
-/* Disabled Switch Styles */
 #silktide-modal .switch input:disabled + .switch__pill {
   opacity: 0.65;
   cursor: not-allowed;
 }
 
-/* --------------------------------
-  Modal - Footer
--------------------------------- */
 #silktide-modal footer {
   display: flex;
   flex-direction: column;
@@ -468,7 +424,6 @@
   padding: 14px 0px;
 }
 
-/* Cookie Icon */
 #silktide-cookie-icon {
   display: none;
   position: fixed;
@@ -497,9 +452,6 @@
   fill: var(--cookieIconBackgroundColor);
 }
 
-/* --------------------------------
-  Backdrop
--------------------------------- */
 #silktide-backdrop {
   display: none;
   position: absolute;
@@ -512,9 +464,6 @@
   pointer-events: all;
 }
 
-/* --------------------------------
-  Animations
--------------------------------- */
 @keyframes silktide-fadeIn {
   from {
     opacity: 0;
