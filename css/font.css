@@ -1,5 +1,5 @@
 body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Urbanist', sans-serif;
 }
 
 h1,
@@ -34,6 +34,11 @@ h3 {
 p {
     font-size: 1em;
     line-height: 1.5;
+}
+
+.card h3 {
+    font-weight: 600;
+    color: #012953;
 }
 
 .highlight.blue {

@@ -13,3 +13,11 @@
 .add-1rem-bottom-margin {
     margin-bottom: 1rem;
 }
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}

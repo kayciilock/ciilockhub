@@ -21,8 +21,22 @@
     transition:  background-color 0.3s ease;
 }
 
+.btn.filled.yellow {
+    background-color: #FBBD14;
+    color: white;
+    transition:  background-color 0.3s ease;
+}
+
+a.btn {
+    text-align: center;
+}
+
 .btn.filled:hover {
     background-color: #0056b3;
+}
+
+.btn.filled.yellow:hover {
+    background-color: #e0ac1b;
 }
 
 .btn.outlined {
