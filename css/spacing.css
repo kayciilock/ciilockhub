@@ -6,6 +6,10 @@
     margin-top: 2rem;
 }
 
+.add-2rem-bottom-margin {
+    margin-bottom: 2rem;
+}
+
 .add-1rem-margin {
     margin: 1rem 0;
 }

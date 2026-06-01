@@ -20,3 +20,13 @@
     align-items: center;
     justify-content: center;
 }
+
+.ad {
+    width: 100%;
+    height: auto;
+}
+
+.ad img {
+    width: 100%;
+    height: auto;
+}
