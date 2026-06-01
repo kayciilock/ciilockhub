@@ -26,7 +26,13 @@
     height: auto;
 }
 
+#ad {
+    
+}
+
 .ad img {
     width: 100%;
     height: auto;
+    border-radius: 2rem;
+    overflow: hidden;
 }
